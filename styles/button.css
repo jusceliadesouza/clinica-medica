@@ -1,0 +1,27 @@
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.8125rem 1rem;
+  border: none;
+  border-radius: 8px;
+
+  color: var(--white);
+  font: 500 0.875rem "Montserrat", sans-serif;
+  background-color: var(--blue);
+  cursor: pointer;
+}
+
+.video-call-button {
+  background-color: var(--orange);
+}
+
+.outline {
+  background: none;
+  color: var(--gray);
+  border: 1px solid var(--gray);
+}
